@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "844542101583",
+    "firebase_url": "https://imapp-f3baa-default-rtdb.firebaseio.com",
+    "project_id": "imapp-f3baa",
+    "storage_bucket": "imapp-f3baa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844542101583:android:ea92685830bc963943023a",
+        "android_client_info": {
+          "package_name": "com.nvm.imapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844542101583-3tlud6jfe81o9v6mub13tes2ns1mfbj8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nvm.imapp",
+            "certificate_hash": "c78a6811c25431dc7f8bcde3ea2a8d0e89e74bd8"
+          }
+        },
+        {
+          "client_id": "844542101583-pvsg3kb8h73tdq19o7rkafj4pba7dfrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA7go93akNThkTkEN5aq1XDnaP4uL8CPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844542101583-pvsg3kb8h73tdq19o7rkafj4pba7dfrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

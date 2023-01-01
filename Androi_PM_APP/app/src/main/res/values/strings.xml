@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PM</string>
+    <string name="title_home">Trang chủ</string>
+    <string name="help">Hỗ trợ</string>
+    <string name="profile">Cá nhân</string>
+    <string name="User_Manual">Hướng dẫn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ch1">- Chúng tôi đang cố gắng tối ưu hóa hệ thống để có thể gửi mã xác minh nhanh hơn, bạn vui lòng đợi trong giây lát sẽ có mã xác minh gửi về hòm thư điện tử của bạn, rất xin lỗi về sự bất tiện này ! Trân Trọng !
+</string>
+    <string name="ch2">- Với dịch vụ quản lý sản phẩm PM thông qua thiết bị di động, máy tính bảng, quý khách sẽ được trải nghiệm một ứng dụng quản lý thông minh, nhanh chóng và chính xác, mọi lúc mọi nơi với nhiều tiện ích hấp dẫn, PM cung cấp các dịch vụ quản lý sản phẩm, chi tiêu sản phẩm của bạn một cách an toàn và đáng tin cậy.
+</string>
+    <string name="ch3">- Thêm sản phẩm vào kho\n- Xuất sản phẩm
+\n- Kiểm tra lịch sử giao dịch
+\n- Thống kê thành tiền của các sản phẩm mà mình nhập xuất
+\n- Kiểm tra các mặt hàng hiện có , số lượng từng loại, nguồn gốc xuất xứ, giá cả...
+</string>
+    <string name="ch4">- Quý khách ở nước ngoài hoàn toàn có thể chuyển đổi sử dụng dịch vụ PM nếu thiết bị di động của quý khách ở chế độ roaming để nhận được tin nhắn SMS từ PM</string>
+    <string name="ch5">- Quý khách vui lòng liên hệ Hotline 24/7 của PM để đăng ký ngừng sử dụng dịch vụ trực tuyến.\n- Trong trường hợp khẩn cấp, quý khách có thể nhắn gửi qua mail manhnv291201@gmail.com của dịch vụ PM của chúng tôi dành cho Khách hàng để yêu cầu tạm khóa dịch vụ
+</string>
+    <string name="ch6">- Tài khoản của bạn sẽ được xác thực sau chậm nhất là 24h ( ngoại trừ thứ bảy, chủ nhật và ngày lễ). Nếu quá thời gian trên mà tài khoản của bạn chưa được xác thực vui lòng liên hệ qua email manhnv291201@gmail.com để được hỗ trợ kịp thời.</string>
+    <string name="ch7">- Khi mới tải ứng dụng quản lý sản phẩm PM, Quý khách cần đăng kí tài khoản để có thể truy cập vào bên trong ứng dụng và sử dụng các dịch vụ tiện ích của chúng tôi.
+\n- Để đăng ký tài khoản đăng nhập, Quý khách cần có email và mã xác thực được chúng tôi gửi về hòm thư điện tử của quý khách
+\n- Sau khi đã đăng ký thành công, Quý khách thực hiện đăng nhập và sử dụng dịch vụ hoàn toàn miễn phí của chúng tôi
+</string>
+    <string name="ch8">- Việc gỡ bỏ ứng dụng không ảnh hưởng đến thông tin sản phẩm và các thông tin giao dịch khác, vì toàn bộ dữ liệu đã được ghi nhận và lưu trữ trên hệ thống máy chủ. Ngay khi bạn cài đặt và đăng nhập vào ứng dụng các thông tin trong tài khoản sẽ được phục hồi như cũ.</string>
+    <string name="ch9">- Hiện tại chúng tôi có hỗ trợ quý khách dịch vụ “ quên mật khẩu "tại trang đăng nhập của ứng dụng.
+Quý khách thực hiện nhập các thông tin xác thực cần thiết để chúng tôi cấp lại mật khẩu mới cho quý khách.Trân trọng !
+</string>
+</resources>

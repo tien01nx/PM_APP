@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragment.HuongDanFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/tone"
+            android:gravity="center"
+            android:text="Hướng dẫn sử dụng"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=" I. Ứng dụng PM là gì?"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="30dp"
+            android:text="- PM là một phần mềm được tạo ra với mục đích giúp người dùng quản lý sản phẩm, ứng dụng cung cấp đầy đủ các tính năng giúp bạn quản lý sản phẩm nhập xuất một cách dễ dàng và chính xác nhất."/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=" II. Cách liên hệ hỗ trợ với PM"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="30dp"
+            android:text="1- Gửi yêu cầu hỗ trợ trong mục “Phản hồi” bên trong menu “Cá nhân” của ứng dụng PM
+\n2- Hoặc gửi đến email: manhnv291201@gmail.com
+\nChúng tôi sẽ hỗ trợ và phản hồi bạn trong thời gian sớm nhất
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=" III. Cách thêm sản phẩm"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="30dp"
+            android:text="- Bước 1: Từ màn hình chính Trang chủ của ứng dụng chọn “Nhập sản phẩm”
+\n- Bước 2: Điền đầy đủ thông tin của sản phẩm
+\n- Bước 3: Hoặc chọn “Quét mã QR” để thêm sản phẩm một cách nhanh chóng
+\n- Bước 4: Click “Thêm sản phẩm” để thêm sản phẩm."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=" IV. Cách xem danh sách tất cả các sản phẩm"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="30dp"
+            android:text="- Bước 1: Từ màn hình chính Trang chủ của ứng dụng chọn “Sản phẩm hiện có”
+\n- Bước 2: Tại trang “Sản phẩm hiện có” sẽ hiển thị các thông tin của sản phẩm hiện có
+\n- Bước 3: Chọn vào 1 sản phẩm để xem thông tin chi tiết
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=" V. Cách kiểm tra lịch sử giao dịch"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="30dp"
+            android:text="- Bước 1: Từ màn hình chính Trang chủ của ứng dụng chọn “Lịch sử nhập sản phẩm” hoặc “Lịch sử xuất sản phẩm” để xem thông tin lịch sử giao dịch nhập hoặc xuất sản phẩm
+\n- Bước 2: Chọn vào 1 sản phẩm để xem thông tin chi tiết"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=" VI. Cách xuất sản phẩm"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="30dp"
+            android:text="- Bước 1: Từ màn hình chính Trang chủ của ứng dụng chọn “Xuất sản phẩm”
+\n- Bước 2: Nhập đầy đủ các thông tin của sản phẩm hoặc click và biểu tượng Scan để quét mã mà không cần nhập thủ công
+\n- Bước 3: Chọn “Xuất sản phẩm” để xuất sản phẩm."/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text=" VII. Cách đổi mật khẩu"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:paddingRight="3dp"
+            android:paddingLeft="30dp"
+            android:layout_marginBottom="30dp"
+            android:text="- Bước 1: Từ màn hình chính của ứng dụng chọn “Cá nhân”
+\n- Bước 2: Trong mục Cài đặt chọn “Đổi mật khẩu”
+\n- Bước 3: Nhập thông tin.
+\n- Bước 4. Chọn “Gửi mã” để nhận mã xác nhận.
+\n- Bước 5:  Nhập mã xác nhận được gửi về email đăng ký tài khoản của bạn.
+\n- Bước 6: Chọn “Đổi mật khẩu” để hoàn tất quá trình đổi mật khẩu."/>
+
+    </LinearLayout>
+</ScrollView>

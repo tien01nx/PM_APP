@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/tone"
+        android:gravity="center"
+        android:text="Câu hỏi thường gặp"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/sample1"
+                layout="@layout/text_item" />
+
+            <include
+                android:id="@+id/sample2"
+                layout="@layout/text_item" />
+            <include
+                android:id="@+id/sample3"
+                layout="@layout/text_item" />
+
+            <include
+                android:id="@+id/sample4"
+                layout="@layout/text_item" />
+            <include
+                android:id="@+id/sample5"
+                layout="@layout/text_item" />
+
+            <include
+                android:id="@+id/sample6"
+                layout="@layout/text_item" />
+            <include
+                android:id="@+id/sample7"
+                layout="@layout/text_item" />
+
+            <include
+                android:id="@+id/sample8"
+                layout="@layout/text_item" />
+            <include
+                android:id="@+id/sample9"
+                layout="@layout/text_item" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

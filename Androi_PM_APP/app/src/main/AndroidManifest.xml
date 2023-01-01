@@ -1,0 +1,80 @@
+<?xml version="1.1" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nvm.imapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ion"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ion"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Imapp">
+        <activity android:name=".feedback.FeedBackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".QuenMK.ResetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.SellHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Adapter.SellAdapterHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chitiet.ChiTietSell"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Adapter.ProductHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.HistoryAddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chitiet.ChiTietHistoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.ProductAvailableActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chitiet.ChiTiet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.SellActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.AddActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.PrivacyPolicyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".registration.UserRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login.StartAppActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

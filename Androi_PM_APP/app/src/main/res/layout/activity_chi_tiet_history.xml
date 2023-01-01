@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/chiTietHistory"
+    tools:context=".Chitiet.ChiTietHistoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/tone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backH"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/back" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="Thông tin chi tiết"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/add" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="20dp"
+                android:text="NHẬP SẢN PHẨM"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="20dp"
+                android:text="• Thành công"
+                android:gravity="center"
+                android:textColor="@color/green"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="18dp"
+        android:text="Thông tin giao dịch" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Tổng thành tiền:"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Số lượng nhập:"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Thời gian:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Ngày:"
+            android:textColor="@color/black"
+            android:textSize="16dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_TTH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16dp"
+                android:text="150000"
+                android:textStyle="italic"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/txt_SLH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16dp"
+                android:text="100000"
+                android:textStyle="italic"
+                android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txt_TimeH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="16dp"
+            android:text="00:00:00"
+            android:textStyle="italic"
+            android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/txt_DateH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="16dp"
+            android:text="Mon dd/mm/yyyy"
+            android:textStyle="italic"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="18dp"
+        android:text="Thông tin sản phẩm" />
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="93dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Tên sản phẩm:"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Mã sản phẩm:"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Khối lượng:"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Công ty:"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Xuất xứ:"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Đơn giá (VNĐ):"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="7.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:paddingRight="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txt_nameH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Product"
+                android:textSize="16dp"
+                android:singleLine="true"
+                android:textStyle="italic"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txt_codeH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="123456789"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txt_KLH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:text="1000"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txt_HangH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:text="Vinfast"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txt_MadeInH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:text="VietNam"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/txt_DonGiaH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="1000000"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

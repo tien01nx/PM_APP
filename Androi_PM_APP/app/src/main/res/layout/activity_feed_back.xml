@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".feedback.FeedBackActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/tone"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/backfb"
+            android:layout_width="28dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="12dp"
+            android:src="@drawable/back" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="Phản hồi"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSubject"
+        android:padding="10dp"
+        android:hint="Tiêu đề"
+        android:background="@drawable/bovien"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:hint="nội dung"
+        android:id="@+id/etMessage"
+        android:padding="10dp"
+        android:gravity="top"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bovien"
+        android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSent"
+            android:textColor="@color/tone"
+            android:background="@drawable/bovien"
+            android:padding="10dp"
+            android:text="Gửi"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"/>
+    </LinearLayout>
+</LinearLayout>
