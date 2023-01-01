@@ -1,4 +1,4 @@
-# PMM_APP
+# PM_APP
 Tổng quan về đề tài
 1.	Giới thiệu đề tài
 Sự bùng nổ thông tin và sự phát triển mạnh mẽ của công nghệ kỹ thuật số, yêu cầu muốn phát triển thì phải tin học hóa vào tất cả các ngành, các lĩnh vực. Các phần mềm giúp tiết kiệm một lượng lớn thời gian, công sức của con người, tăng độ chính xác và hiệu quả trong công việc. Một hệ thống giúp quản lý sản phẩm là không thể thiếu trong hoạt động kinh doanh. Hệ thống này chính là những phần mềm quản lý sản phẩm, giúp cho người dùng đặc biệt là các doanh nghiệp kiểm soát được hàng hóa một cách chặt chẽ hơn. 
